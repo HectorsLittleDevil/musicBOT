@@ -1,7 +1,7 @@
 const Client = require('discord.js').Client;
 const Auth = require('./auth.json');
 
-const music = require('../');
+const music = require('./musicBot.js');
 
 // Create a new client.
 const client = new Client();
